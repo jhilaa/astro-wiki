@@ -20,7 +20,9 @@ flowchart LR
     B --> C[CSV Export]
     C --> D[Talend ETL]
     D --> E[Oracle APEX DB]
+    E --> D
     E --> F[Power BI Dashboard]
+````
 
 astro-portfolio/
 │
